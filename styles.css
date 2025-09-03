@@ -1,1 +1,24 @@
 /*  your css code here. If applicable */
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgb(105, 82, 240);
+    color: bisque;
+    padding: 60px;
+}
+
+
+button {
+    padding: 10px;
+    cursor: pointer;
+    /* background-color: blueviolet; */
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    border: 1px solid white;
+    color: antiquewhite;
+    font-size: 16px;
+    backdrop-filter: blur(80px);
+}
+
+button:hover {
+    background-color:darkmagenta;
+}
